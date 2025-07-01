@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { Mail, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -25,7 +23,9 @@ export default function Portfolio() {
         >
           Business Analyst & Sales Strategist
         </motion.h2>
-        <Button className="text-lg px-6 py-3">Download Resume</Button>
+        <button className="text-lg px-6 py-3 bg-blue-600 text-white rounded">
+      Download Resume
+        </button>
       </section>
     </div>
   );
